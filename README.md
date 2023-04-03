@@ -1,4 +1,4 @@
-# Beresheet Stimulation
+# Beresheet Simulation
 
 ## Introduction
 This repository contains a simulation of the landing sequence of the Beresheet spacecraft on the lunar surface. The goal of this simulation is to provide a tool for researchers and enthusiasts to explore the dynamics of the spacecraft during landing and to test different landing strategies.
