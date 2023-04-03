@@ -35,6 +35,7 @@ The PID controller is initialized using the PID class using the following constr
     where P, I and D are the proportional , integral and derivative correction terms.
    
  At every iteration (dt, which represents the time in our simulation) we update the controller with our desired VS and the error value.
+ In this simulation the PID values were 0.04, 0.0003 and 0.2 accordingly.
  
     currentPidUpdate = pid.update(error, dt, vs);
     
@@ -53,10 +54,41 @@ The returned PID value is then normalized to values between 0 and 1 with the fol
 
 Using the NN value we control the engine throughput.
 
+To see the results of the simulation in a graphic manner, let us examine the following graphs:
 
+
+### VS & DVS
 
     
+   ![VS_DVS](https://user-images.githubusercontent.com/74679553/229605509-f4e2005a-5482-4059-884b-66a332cd2c4a.png)
    
+   In this graph we can see the similarities between the spacecraft VS (which is the spacecraft landing speed) and between the DVS which is the landing speed we want the spacecraft to be at.
+
+
+### NN
+![NN_TIME](https://user-images.githubusercontent.com/74679553/229606159-97c89587-2f37-4c8f-880c-69ba5f37e556.png)
+
+NN is the PID value normalized between 0 and 1, which is the deciding factor for the engine throughput.
+
+### Altitude
+
+
+![ALT](https://user-images.githubusercontent.com/74679553/229606497-3b353941-205a-422c-9e08-ad3e6355f4ed.png)
+
+We can see the descent rate of the spacecraft on the timeline, we can observe that the landing speed slows down before the landing impact to ensure the integrity of Beresheet.
+
+### HS
+![HS](https://user-images.githubusercontent.com/74679553/229606864-bc31d4ed-c140-4781-8cc8-7095e920d5c6.png)
+
+In this graph we can see the horizontal speed of the spacecraft. 
+The landing plan was for the HS value to start closing in to 0 once altitude of 2km has been reached.
+
+
+
+
+
+
+
 
 
 
