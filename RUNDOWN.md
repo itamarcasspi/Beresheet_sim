@@ -2,6 +2,8 @@
 
 # Simulation rundown
 
+By Itamar Caspi and Josef Mammo
+
 The simulation file package includes the following files:
 
 
