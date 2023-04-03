@@ -12,8 +12,8 @@ The simulation file package includes the following files:
 
 To run the simulation program run the Bereshit_101.java file and the landing simulation parameters will pop on a UI window.
 
-PICTURE HERE
 
+![beresheet](https://user-images.githubusercontent.com/74679553/229558775-62a9e1d2-2850-4db0-9397-e56ebafba42f.png)
 
 The required parameters of the aircraft that represent a landing should be:
 
