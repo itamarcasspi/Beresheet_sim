@@ -10,10 +10,10 @@ The simulation file package includes the following files:
     PID.java
     MainView.java
 
+
 To run the simulation program run the Bereshit_101.java file and the landing simulation parameters will pop on a UI window.
 
-
-![beresheet](https://user-images.githubusercontent.com/74679553/229558775-62a9e1d2-2850-4db0-9397-e56ebafba42f.png)
+![newbereshit](https://user-images.githubusercontent.com/74679553/229559163-40691f9e-4e9b-4138-80bc-56e5f1886bae.png)
 
 The required parameters of the aircraft that represent a landing should be:
 
